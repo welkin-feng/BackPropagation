@@ -1,12 +1,12 @@
 <h1>BackPropagation</h1>
 
-引：所有神经网络的反向传播算法都是一样的。有基础的微积分知识（到链式法则，也就是函数内套函数的导数的求法）。而神经网络的话，是求将其他维度的变量看成常量的偏导数。如果微积分的知识不牢固，请看斯坦福strang老爷子的微积分重点http://open.163.com/special/opencourse/weijifen.html。如果没有问题，那看这篇http://colah.github.io/posts/2015-08-Backprop/。关于实践部分（不用tensorflow自带的update方式），先自己在纸上推出导数，再在pytorch上用自带的自动求导验证自己的结果，加深体会。
+引知乎YJango回复（关于反向传播算法）：所有神经网络的反向传播算法都是一样的。有基础的微积分知识（到链式法则，也就是函数内套函数的导数的求法）。而神经网络的话，是求将其他维度的变量看成常量的偏导数。如果微积分的知识不牢固，请看斯坦福strang老爷子的微积分重点 http://open.163.com/special/opencourse/weijifen.html 。如果没有问题，那看这篇 http://colah.github.io/posts/2015-08-Backprop/ 。关于实践部分（不用tensorflow自带的update方式），先自己在纸上推出导数，再在pytorch上用自带的自动求导验证自己的结果，加深体会。
 
 
 ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
 
 运行方法：
-先将运行目录设置为当前目录，然后在命令行执行：python3 BP3.py 或 ./BP3.py
+先将运行目录设置为当前目录，然后在命令行执行：python3 BP3_x_x.py 或 ./BP3_x_x.py
 使用要求：
 先将文件中import的几个包都通过 pip3 install xxxxx 指令安装好，然后按照上面的运行方法运行
 
@@ -17,7 +17,7 @@
 
 
 
-Version:
+<h2>Version:</h2>
 
 BP3.0.1:
 
